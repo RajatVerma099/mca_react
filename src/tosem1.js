@@ -1,19 +1,13 @@
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Route,
-  Link,
-} from "react-router-dom";
 import './App.css';
-import './tosem1';
-function App() {
-  var Heading="MCA Notes App";
+
+export default function tosem1() {
+  var Heading="First Semester";
   return (
   <>
  <div className="appbar"><center><p className="headingText">{Heading}</p></center></div>
   <center>
     <h5><u><b>Select Semester</b></u></h5>
-  <button className="buttonstyle" >
+  <button className="buttonstyle" onClick="tosem1">
     Semester 1
   </button>
   <button className="buttonstyle">
@@ -33,5 +27,3 @@ function App() {
   
   );
 }
-
-export default App;

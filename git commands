@@ -1,0 +1,15 @@
+git init
+
+git commit -m "message"
+
+git remote add origin https://github.com/RajatVerma099/mca_react.git
+
+git branch -M main
+
+git push -u origin main
+
+git add .
+
+git commit -m "changed color"  
+
+git push   
