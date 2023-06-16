@@ -7,7 +7,7 @@ import {
 import './App.css';
 import './tosem1';
 function App() {
-  var Heading="MCA Notes App";
+  var Heading="MCA Notes App :)";
   return (
   <>
  <div className="appbar"><center><p className="headingText">{Heading}</p></center></div>
