@@ -6,10 +6,6 @@ import Sem2 from "./Pages/Sem2";
 import Sem3 from "./Pages/Sem3";
 import Sem4 from "./Pages/Sem4";
 
-// import About from "./Pages/About";
-// import Profile from "./Pages/Profile";
-// import ErrorPage from "./Pages/ErrorPage";
-
 function App() {
   return (
     <>

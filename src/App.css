@@ -76,3 +76,155 @@
 .Link{
   margin:"15px"
 }
+/* 
+.styledbutton{
+  margin: 2%;
+  padding: 0.5%;
+} */
+
+.styledbutton {
+  border: none;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: #222;
+  padding: 17px 60px;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+
+.btnstyledbutton:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  background: #78c7d2;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+
+.styledbutton:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+.btn span {
+  position: relative; 
+  z-index: 1;
+}
+
+
+
+.accordion .content{
+  padding: .5em 1.5em .5em;
+}
+.content1{
+  padding: .5em 5em .5em;
+}
+
+/* 
+$dark-blue: #2C3E50;
+$dark-blue-highlight: #3f5973;
+$pink:  #e01f32;
+$off-white: #ECF0F1;
+$baby-blue: #3498DB;
+$blue: #5b80a4;
+$blue-highlight: #7b99b7; */ 
+/* 
+/* $color-main       : $off-white;
+$color-background : $off-white;
+$color-headlines  : $dark-blue; */
+
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+
+/* $font-main: 'Montserrat', Helvetica, sans-serif; */
+
+* {
+    font-size: 16px;
+    font-family: white;
+}
+
+/* Accordion Styles */
+.accordion {
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid whitesmoke;
+}
+
+/* Button Styles */
+.accordion-btn {
+    background-color: blue;
+    font-size: 1.5em;
+    color: whitesmoke;
+    cursor: pointer;    
+    width: 100%;
+    text-align: left;
+    border: none;
+    transition: 0.5s;    
+}
+
+.accordion-btn span{
+    padding-left:.5em;
+}
+
+.accordion-btn:after {
+    content: '+';
+    font-size: 1em;
+    color: white;
+    float: left;
+    margin-left: 2px;
+}
+
+/* Active and Hover Button Styles */
+.accordion-btn.active,
+.accordion-btn:hover {
+    background-color: pink;
+}
+
+.accordion-btn.active:after {
+    content: "-";
+}
+
+/* Panel Styles */
+.panel {
+    background-color: whitesmoke;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.panel p {
+    font-size: 1.2em;
+    padding: 0 2em;
+}
+
+/* Show Panel onclick */
+.panel.show {
+    display: block;
+    opacity: 1;
+    max-height: 500px;
+}
+
+/* Inner Accordion Style */
+.inner-accord {
+    background-color: blue;
+    font-size: 1.2em;
+    margin-left: 1.25em;
+}
+
+.inner-accord.active,
+.inner-accord:hover {
+    background-color: violet;
+}
