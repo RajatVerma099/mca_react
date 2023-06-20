@@ -6,7 +6,7 @@ function Sem1() {
 const [state,setState]= useState("")
 
 const changeState=()=>{
-    setState("https://cac.annauniv.edu/uddetails/udpg_2019/ice/18.M.C.A.%20(2%20years)%20-2021-22.pdf");
+    setState("https://drive.google.com/uc?export=view&id=1mm447nq0Y2EXr_pc9uaHyt0ztmK053ka");//https://cac.annauniv.edu/uddetails/udpg_2019/ice/18.M.C.A.%20(2%20years)%20-2021-22.pdf");
     //PdfPage();
 }
     return (
