@@ -6,8 +6,9 @@ const AccordionItem = ({ title, content }) => {
 
   const toggleAccordion = () => {
     const currentTime = new Date().getTime();
-    if (currentTime - lastClickTime < 300) {
+    // if (currentTime - lastClickTime < 300) {
       // Double tap occurred
+   if (isOpen==true){
       setIsOpen(!isOpen);
     } else {
       // Single tap occurred
@@ -45,11 +46,70 @@ const NestedAccordion = () => {
         }
       />
       <AccordionItem
-        title="Section 2"
+        title="Data Structure and Algorithm"
         content={
           <div>
-            <p>Content of section 2</p>
-            {/* <NestedAccordion /> */}
+           <p>Unit 1.) Linear DS</p>
+            <p>Unit 2.) Algorithms In Computing</p>
+            <p>Unit 3.) Hierarical DS and Hashing</p>
+            <p>Unit 4.) Sorting, Tress and Graphs</p>
+            <p>Unit 5.) Algorithm Design Techniques</p>
+
+          </div>
+        }
+      />
+
+<AccordionItem
+        title="Python Programming"
+        content={
+          <div>
+           <p>Unit 1.) Variables Operators and Conditionals</p>
+            <p>Unit 2.) Loops and Functions</p>
+            <p>Unit 3.) Simple Data Structures</p>
+            <p>Unit 4.) String, Dictionaries, Modules</p>
+            <p>Unit 5.) File and Exception Handling and System Level Commands</p>
+
+          </div>
+        }
+      />
+      <AccordionItem
+        title="Content Technology"
+        content={
+          <div>
+           <p>Unit 1.) Document Databasea</p>
+            <p>Unit 2.) Graph and Column Databases</p>
+            <p>Unit 3.) Distributed Database Patterns</p>
+            <p>Unit 4.) DAM</p>
+            <p>Unit 5.) DAM Metrics and Strategies</p>
+
+          </div>
+        }
+      />
+
+<AccordionItem
+        title="Network Prog. and Device Management"
+        content={
+          <div>
+           <p>Unit 1.) Architecture and Application</p>
+            <p>Unit 2.) Socket Programming</p>
+            <p>Unit 3.) Secure Communication</p>
+            <p>Unit 4.) L2 &L3 Protocols and Devices</p>
+            <p>Unit 5.) Devices, Monitoring and Management</p>
+
+          </div>
+        }
+      />
+
+<AccordionItem
+        title="Research Methedology and IPR"
+        content={
+          <div>
+           <p>Unit 1.) Research Problem Formulation</p>
+            <p>Unit 2.) Literature Review</p>
+            <p>Unit 3.) Technical Writing/Presentation</p>
+            <p>Unit 4.) Introduction to IPR</p>
+            <p>Unit 5.) IPR</p>
+
           </div>
         }
       />
