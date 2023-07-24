@@ -12,7 +12,8 @@ function App() {
     <Router>
       <center>
       <nav style={{backgroundColor:"black", height:"45pt"}}>
-      
+      {/* demo image */}
+      <img src='https://drive.usercontent.google.com/open?id=11jCtyR54ta9pCndBebe7pZeoBRygFwAs&authuser=0'/>
       {/* <button className="navbutton"> */}
         <Link to="/"> Home Page </Link>
         {/* </button> */}
