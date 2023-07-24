@@ -15,10 +15,6 @@ function App() {
       {/* demo image */}
       {/* <img src='https://elements.envato.com/photos/city'/> */}
       {/* <button className="navbutton"> */}
-      <img 
-      src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350"
-      alt="new"
-      />
         <Link to="/"> Home Page </Link>
         {/* </button> */}
 
@@ -42,6 +38,10 @@ function App() {
       <div>  </div>
       </center>
     </Router>
+{/* <img 
+src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350"
+alt="new"
+/> */}
     </>
   );
 }
