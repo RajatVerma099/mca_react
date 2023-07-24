@@ -13,8 +13,12 @@ function App() {
       <center>
       <nav style={{backgroundColor:"black", height:"45pt"}}>
       {/* demo image */}
-      <img src='https://drive.usercontent.google.com/open?id=11jCtyR54ta9pCndBebe7pZeoBRygFwAs&authuser=0'/>
+      {/* <img src='https://elements.envato.com/photos/city'/> */}
       {/* <button className="navbutton"> */}
+      <img 
+      src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350"
+      alt="new"
+      />
         <Link to="/"> Home Page </Link>
         {/* </button> */}
 
